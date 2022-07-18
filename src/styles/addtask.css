@@ -1,0 +1,37 @@
+.message {
+    margin-top: 10px;
+    color: white;
+}
+
+.form-control {
+    width: 30em;
+    box-shadow: none;
+    background-color: #5C5C5C;
+    border: 0;
+    color:white;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: #5C5C5C;
+    border: 0;
+    color:white;
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 0.7; 
+}
+
+button {
+    background-color: #C620A7;
+    border: none;
+    color: white;
+    padding: 7px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}

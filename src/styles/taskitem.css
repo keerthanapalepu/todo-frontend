@@ -1,0 +1,126 @@
+.card {
+    background-color: #2F2F2F;
+    margin: 30px 0;
+    position: relative;
+}
+
+.completed-card {
+    background-color: #202020;
+    border-color: #7AB530;
+}
+
+.incomplete-card {
+    background-color: #2F2F2F;
+    box-shadow: 0px 0px 16px 0.8px black;
+}
+
+.cardButton{
+  border: none;
+  color: white;
+  padding: 7px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+
+.incomplete {
+    background-color: #C620A7;
+}
+
+.complete {
+    background-color: #202020;
+}
+
+.deleteButton {
+    color: #AFAFAF;
+}
+
+.deleteButton:hover {
+    color:#C620A7;
+    cursor: pointer;
+}
+
+.taskname {
+    color: white;
+}
+
+.indexNumber{
+  color: white;
+  margin: 10px;
+  padding-top : 38px;
+}
+.Cardbuttons{
+  display: inline-flex;
+   align-items: center;
+}
+
+hr{
+  color: #454545;
+  border-top: 2px solid;
+}
+
+.icon {
+ position: relative;
+ left: 370px;
+ top: 0px;
+ z-index: 1;
+}
+
+
+.fa-circle{
+  color: #7AB530;
+}
+.fa-check{
+  color: white;
+}
+
+
+.invisible{
+  visibility: hidden;
+}
+
+.visible{
+  visibility: visible;
+}
+
+
+@media (max-width: 1400px) {
+  .icon {
+    position: relative;
+  left: 327px;
+  top: 80px;
+  z-index: 1;
+  }
+}
+
+@media (max-width: 1199px) {
+  .icon {
+    position: relative;
+    left: 275px;
+    top: 80px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 960px) {
+  .icon {
+    position: relative;
+    left: 315px;
+    top: 80px;
+    z-index: 1;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .icon {
+    position: relative;
+    left: 367px;
+    top: 2px;
+    z-index: 1;
+  }
+}
